@@ -2,7 +2,7 @@ import React from "react";
 
 import { projects } from "../data"
 
-export default function About() {
+export default function Projects() {
     return(
         <div className="grid grid-cols-4 gap-4">
             {projects.map((proj) => 
