@@ -1,19 +1,19 @@
 export const projects = [
     {
-      title: "React Reserve",
-      subtitle: "MERN Stack",
+      title: "Adaptability Quiz",
+      tags: ["Research", "Discovery", "User Testing", "Interaction Design", "UX/UI Design"],
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
       image: "./project-1.gif",
-      link: "https://reactbootcamp.com",
+      link: "/adaptability",
     },
     {
-      title: "React Tracks",
+      title: "Hello Zum: UI Revamp",
       subtitle: "React and Python",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
       image: "./project-2.gif",
-      link: "https://reedbarger.com",
+      link: "/views/getonbrd",
     },
     {
       title: "DevChat",
