@@ -13,8 +13,7 @@ export default function About() {
             <ul className="flex flex-wrap gap-2 col-span-12">
                 {abilities.map((ab) =>  
                     <li className="p-1 border rounded-full px-3 text-lg font-bold text-gray-500">{ab}</li>
-                )}
-                
+                )}             
             </ul>
         </div>
     )
