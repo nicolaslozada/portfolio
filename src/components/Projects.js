@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from 'react'
 import { Tab } from '@headlessui/react'
 import { projects } from "../data"
+import { Link } from 'react-router-dom';
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -59,13 +60,10 @@ export default function Projects() {
         ],
       })
 
-
-
-
     return(
         <div className="grid grid-cols-4 gap-4">
 
-<Tab.Group>
+{/* <Tab.Group>
         <Tab.List className="flex space-x-1 rounded-xl bg-blue-900/20 p-1">
           {Object.keys(categories).map((category) => (
             <Tab
@@ -124,11 +122,13 @@ export default function Projects() {
             </Tab.Panel>
           ))}
         </Tab.Panels>
-      </Tab.Group>
+      </Tab.Group> */}
 
             {projects.map((proj) => 
                 <div className="bg-blue-100 "> 
-                    <h2 className="p-1 border rounded-full px-3">{proj.title}</h2>
+                    <Link to="/gob"> GOBBBB 
+                      <h2 className="p-1 border rounded-full px-3">{proj.title}</h2>
+                    </Link>
                 </div>
                 )}
         </div>
