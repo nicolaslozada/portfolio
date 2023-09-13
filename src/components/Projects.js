@@ -126,7 +126,7 @@ export default function Projects() {
 
             {projects.map((proj) => 
                 <div className="bg-blue-100 "> 
-                    <Link to="/gob"> GOBBBB 
+                    <Link to={proj.link}> GOBBBB 
                       <h2 className="p-1 border rounded-full px-3">{proj.title}</h2>
                     </Link>
                 </div>
